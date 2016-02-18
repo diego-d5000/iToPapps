@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iToPapps</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lorem_ipsum_short">Lorem Ipsum</string>
+    <string name="lorem_ipsum_long">Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur</string>
+    <string name="no_name">Sin Nombre</string>
+    <string name="no_author">Anónimo</string>
+    <string name="free">Gratis</string>
+    <string name="no_category">Sin Categoría</string>
+    <string name="summary">Información</string>
+    <string name="no_info">Sin Información</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="key_json_cache">json_cache</string>
+    <string name="key_sharedpreferences">key_sharedpreferences</string>
+</resources>

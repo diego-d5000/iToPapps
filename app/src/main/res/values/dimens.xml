@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_size_list">40dp</dimen>
+    <dimen name="img_padding_tb">8dp</dimen>
+    <dimen name="general_16">16dp</dimen>
+    <dimen name="padding_relative_layout_app_list">8dp</dimen>
+    <dimen name="size_primary_text">16sp</dimen>
+    <dimen name="size_secondary_text">14sp</dimen>
+    <dimen name="height_text_grid_item">68dp</dimen>
+    <dimen name="margin_bottom_primary_text">4dp</dimen>
+    <dimen name="size_img_card_app">52dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">250dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

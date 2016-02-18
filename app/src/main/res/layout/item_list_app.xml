@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemApp"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingTop="@dimen/padding_relative_layout_app_list">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleDraweeImgList"
+        android:layout_width="@dimen/img_size_list"
+        android:layout_height="@dimen/img_size_list"
+        android:layout_marginBottom="@dimen/img_padding_tb"
+        android:layout_marginEnd="@dimen/general_16"
+        android:layout_marginRight="@dimen/general_16"
+        android:layout_marginTop="@dimen/img_padding_tb"
+        fresco:placeholderImage="@drawable/ic_appleandroid"
+        fresco:roundAsCircle="true" />
+
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/simpleDraweeImgList"
+        android:layout_marginBottom="@dimen/margin_bottom_primary_text"
+        android:layout_toRightOf="@+id/simpleDraweeImgList"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/no_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/size_primary_text" />
+
+    <TextView
+        android:id="@+id/textAppAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textAppName"
+        android:layout_below="@+id/textAppName"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/no_author"
+        android:textSize="@dimen/size_secondary_text" />
+
+</RelativeLayout>
